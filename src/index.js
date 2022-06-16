@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n'
 
+/**
+ * Translations loaded asynchronously which needs react.suspense
+ */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

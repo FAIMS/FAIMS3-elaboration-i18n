@@ -2,9 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import {useTranslation, Trans} from 'react-i18next'
 
-const langs = {
+/**
+ * Language Switcher
+ * @Component - <Trans i18nKey={"key"}> - Translates components with a key which is referenced from the JSON
+ * @Function - t - Translates Strings with t('key') -> add the key to the translation JSON
+ * @Function - i18n.changeLanguage - switch languages which is persisted in localstorage
+ */
+
+ const langs = {
   en: {nativeName: 'English'},
-  de: {nativeName: 'Deutsch'}
+  de: {nativeName: 'Deutsch'},
+  chineseSimp: {nativeName: 'Chinese'},
+  in: {nativeName: 'Indonesian'}
 }
 
 function App() {
@@ -31,7 +40,7 @@ function App() {
         >
           {t('learn')}
         </a>
-        {/*Automatically translate and add new translations using locize (requires $$$ per use) <p>{t('new.key', 'this will be added automatically')}</p> */}
+        {/*Triggers saveMissing plugin on developer console <p>{t('new.key', 'this will be added automatically')}</p> */}
       </header>
     </div>
   );
