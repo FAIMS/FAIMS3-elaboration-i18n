@@ -10,7 +10,7 @@ i18n prototype
 
 
 
-[gif](https://github.com/FAIMS/FAIMS3-elaboration-i18n/../../../../translationExample.gif)
+![gif](https://github.com/FAIMS/FAIMS3-elaboration-i18n/blob/main/translationExample.gif)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
