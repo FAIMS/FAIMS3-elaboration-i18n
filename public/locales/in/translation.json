@@ -1,4 +1,10 @@
 {
-    "learn": "Pelajari Bereaksi",
-    "description": "Sunting <1>src/App.js</1> dan simpan untuk memuat ulang."
+  "key": "",
+  "description": "Sunting <1>src/App.js</1> dan simpan untuk memuat ulang.",
+  "learn": {
+    "key": "mempelajari"
+  },
+  "potatoe": {
+    "key": "kentangnya enak"
+  }
 }

@@ -12,7 +12,7 @@ import {useTranslation, Trans} from 'react-i18next'
  const langs = {
   en: {nativeName: 'English'},
   de: {nativeName: 'Deutsch'},
-  chineseSimp: {nativeName: 'Chinese'},
+  cn: {nativeName: 'Chinese'},
   in: {nativeName: 'Indonesian'}
 }
 
@@ -38,7 +38,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t('learn')}
+          {t('learn.key', 'learn')} {t('potatoe.key','potatoes are great')}
         </a>
         {/*Triggers saveMissing plugin on developer console <p>{t('new.key', 'this will be added automatically')}</p> */}
       </header>
